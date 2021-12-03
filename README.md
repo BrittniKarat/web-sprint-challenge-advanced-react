@@ -125,7 +125,7 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
     - a componentDidUpdate function will be called when the conditions inside are met.
 
 3. Define stateful logic.
-    - Stateful logic is logic that modifies and/or changes state to make code more dynamic.
+    - Stateful logic is logic that contains, modifies and/or changes state to make code more dynamic.
 
 4. What are the three step of creating a successful test? What is done in each phase? 
     - Arrange - The start of our testing that set up the targeted component
