@@ -57,4 +57,10 @@ test("shows success message on submit with form details", async () => {
     expect(successMessage).toBeVisible();
     expect(successMessage).toHaveTextContent(/You have ordered some plants! Woo-hoo!/i);
     expect(successMessage).toHaveTextContent(/Your new green friends will be shipped to:/i);
+    expect(successMessage).toHaveTextContent(/GenericFirstName/i);
+    expect(successMessage).toHaveTextContent(/GenericLastName/i);
+    expect(successMessage).toHaveTextContent(/123 Generic Address/i);
+    expect(successMessage).toHaveTextContent(/San Diego/i);
+    expect(successMessage).toHaveTextContent(/CA/i);
+    expect(successMessage).toHaveTextContent(/92107/i);
 });
