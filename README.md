@@ -117,9 +117,17 @@ test("displays plants in cart", () => {
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. Add your answers below.
 
 1. What are the main differences between a stateful and a functional component?
+    - Functional components are stateless and only perform simple non-dynamic actions.
+    - Stateful components are dynamic and include stateful logic
 
-2. When does a componentWillMount function be called? What about a componentWillUpdate?
+2. When will a componentWillMount function be called? What about a componentWillUpdate?
+    - a componentWillMount function will be called after the parent function renders
+    - a componentDidUpdate function will be called when the conditions inside are met.
 
 3. Define stateful logic.
+    - Stateful logic is logic that modifies and/or changes state to make code more dynamic.
 
 4. What are the three step of creating a successful test? What is done in each phase? 
+    - Arrange - The start of our testing that set up the targeted component
+    - Act - The actions that perform the work for the test, such as finding elements, imitating user interaction, etc
+    - Assert - The way in which we test if our work is successful, whether that includes things being seen and/or not seen by design
